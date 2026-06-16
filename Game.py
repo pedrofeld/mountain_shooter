@@ -4,7 +4,7 @@ from Menu import Menu
 class Game:
     def __init__(self):
         pygame.init()
-        self.window = pygame.display.set_mode((600, 400))
+        self.window = pygame.display.set_mode((576, 324))
 
     def run(self):
         while True:
