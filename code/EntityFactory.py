@@ -1,4 +1,4 @@
-from Background import Background
+from code.Background import Background
 
 
 class EntityFactory:
@@ -9,5 +9,5 @@ class EntityFactory:
             case 'Level1Bg':
                 list_bg = []
                 for i in range(7):
-                    list_bg.append(Background(f'LevelBg{i}', (0,0)))
+                    list_bg.append(Background(f'Level1Bg{i}', (0,0)))
                 return list_bg
