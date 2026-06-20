@@ -1,4 +1,5 @@
-from code import Entity
+from code.Entity import Entity
+
 
 class Player(Entity):
     def __init__(self, name: str, position: tuple):
