@@ -34,6 +34,8 @@ ENTITY_SPEED = {
     'Level1Bg6': 6,
     'Player1': 3,
     'Player2': 3,
+    'Player1Shot': 1,
+    'Player2Shot': 1,
     'Enemy1': 2,
     'Enemy2': 1,
 }
@@ -65,8 +67,10 @@ PLAYER_KEY_RIGHT = {
     'Player2': pygame.K_d,
 }
 PLAYER_KEY_SHOOT = {
-    'Player1': pygame.K_RCTRL,
-    'Player2': pygame.K_LCTRL,
+    'Player1': pygame.K_RMETA, # MacOs keyboard
+    'Player2': pygame.K_LMETA, # MacOs keyboard
+    # 'Player1': pygame.K_RCTRL,
+    # 'Player2': pygame.K_LCTRL,
 }
 
 # S
