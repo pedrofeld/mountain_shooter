@@ -8,6 +8,7 @@ COLOR_YELLOW = (255, 178, 0)
 # E
 EVENT_ENEMY = pygame.USEREVENT + 1
 ENTITY_HEALTH = {
+    'Level1Bg0': 999,
     'Level1Bg1': 999,
     'Level1Bg2': 999,
     'Level1Bg3': 999,
