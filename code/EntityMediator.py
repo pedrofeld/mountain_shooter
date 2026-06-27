@@ -5,7 +5,6 @@ from code.Entity import Entity
 from code.Player import Player
 from code.PlayerShot import PlayerShot
 
-
 class EntityMediator():
     @staticmethod
     def __verify_collision_window(ent: Entity):
