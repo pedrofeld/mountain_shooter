@@ -90,7 +90,7 @@ class Score:
         self.window.blit(source=text_sur, dest=text_rect)
 
 def get_formatted_date():
-    current_datetime = datetime.now()
+    current_datetime = datetime.datetime.now()
     current_time = current_datetime.strftime("%H:%M")
     current_date = current_datetime.strftime("%d/%m/%Y")
     return f'{current_time} - {current_date}'
